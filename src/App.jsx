@@ -4,6 +4,8 @@ import FunctionBased from './component/FunctionBased'
 import Social from './Home/Social'
 import Demo from './demo/Demo'
 import Counter from './State/Counter'
+import Child from './props/Child'
+import Parent from './props/Parent'
 
 const App = () => {
   return (
@@ -12,7 +14,9 @@ const App = () => {
     {/* <FunctionBased/> */}
     {/* <Social/> */}
     {/* <Demo/> */}
-    <Counter/>
+    {/* <Counter/> */}
+    {/* <Child/> */}
+    <Parent/>
     </div>
   )
 }
